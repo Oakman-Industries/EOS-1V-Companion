@@ -1,5 +1,62 @@
 # EOS-1V Companion
 
+## Project status — work in progress
+
+> [!IMPORTANT]
+> **EOS-1V Companion is still under active development and is not yet ready for a
+> general public release.** The core application and reverse-engineering work are
+> well advanced, but there are currently **three practical blockers** I want to
+> resolve before I am comfortable calling it release-ready.
+>
+> If this project is useful or interesting to you and you would like to help get
+> it over the line, please consider supporting the development on
+> **[Ko-Fi](https://ko-fi.com/oakman)**. Any donations will go directly towards
+> the hardware, testing, and distribution costs below.
+
+### Current release blockers
+
+1. **Genuine Canon ES-E1 cable support**  
+   I would like to purchase an original Canon **ES-E1** cable so I can finish
+   and validate support for Canon's genuine hardware in the new software. The
+   goal is to make surviving ES-E1 cables useful on modern systems again rather
+   than leaving them effectively obsolete.
+
+2. **A replacement Canon EOS-1V test body**  
+   The EOS-1V body used to reverse-engineer and develop this project has sadly
+   failed. I therefore no longer have a live camera on which to validate the
+   final implementation. Because this software can both **read from and write to
+   the camera**, I do not want to publish potentially risky or insufficiently
+   tested code without first validating it extensively on real hardware. A
+   replacement EOS-1V body is therefore the most important testing requirement.
+
+3. **Apple Developer Program membership**  
+   To distribute a properly signed and notarised, ready-to-run macOS
+   application, I need an Apple Developer Program membership, which costs
+   approximately **US$100 per year**. Funding this would allow me to provide a
+   downloadable `.app` that users can run without compiling the project
+   themselves, and could potentially also make an eventual **Mac App Store**
+   release possible.
+
+### Wishlist / future expansion
+
+These are not required for the initial EOS-1V release, but they are directions
+I would very much like to explore if there is enough interest and funding:
+
+1. **Nikon F6 support**  
+   The Nikon F6 has similar shooting-data capabilities and would be a natural
+   next camera to investigate. Doing this properly would require purchasing an
+   F6 body for protocol research, development, and hardware validation.
+
+2. **A ready-made hardware dongle / PCB**  
+   I am also exploring a purpose-built interface that could be supplied ready
+   to use — **no soldering, firmware flashing, or microcontroller programming
+   required**. Beyond making EOS-1V setup much easier, this could become a
+   reusable hardware platform for supporting additional cameras in the future.
+
+❤️ **Support the project:** [ko-fi.com/oakman](https://ko-fi.com/oakman)
+
+---
+
 **A native macOS application for the Canon EOS-1V.** Read and write the camera's
 settings, download its shooting data, keep a film-roll library, match scans to
 exposures, and write real photographic metadata into those scans.

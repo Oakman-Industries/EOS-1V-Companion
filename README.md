@@ -899,6 +899,8 @@ undo.
 
 ## Licence and trademarks
 
+Licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)**, © 2026 Oakman Industries — see [`LICENSE`](LICENSE). You may build on it, but must credit Oakman Industries, keep derivatives and findings open under the same license, and not use it commercially.
+
 An independent project by **Oakman**. Not affiliated with, endorsed by, or
 supported by Canon Inc.
 
